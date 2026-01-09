@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>📚 LibraryHub</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you. Reach out to us anytime!</p>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="contact-cards">
+            <div class="contact-info-card">
+                <div class="contact-icon">📍</div>
+                <h3>Visit Us</h3>
+                <p>123 Library Street</p>
+                <p>Book City, BC 12345</p>
+                <p>United States</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">📞</div>
+                <h3>Call Us</h3>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Fax: +1 (555) 123-4568</p>
+                <p>Mon-Fri: 9AM - 8PM</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">✉️</div>
+                <h3>Email Us</h3>
+                <p>info@libraryhub.com</p>
+                <p>support@libraryhub.com</p>
+                <p>Response within 24 hours</p>
+            </div>
+            <div class="contact-info-card">
+                <div class="contact-icon">🕒</div>
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9AM - 8PM</p>
+                <p>Saturday - Sunday: 10AM - 6PM</p>
+                <p>Holidays: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="form-container">
+            <div class="form-intro">
+                <h2>Send Us a Message</h2>
+                <p>Have a question or feedback? Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="membership">Membership Question</option>
+                        <option value="book">Book Request</option>
+                        <option value="technical">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <h2 class="section-title">Find Us on the Map</h2>
+        <div class="map-placeholder">
+            <div class="map-content">
+                <div class="map-icon">🗺️</div>
+                <p>123 Library Street, Book City, BC 12345</p>
+                <p>Interactive map would be displayed here</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>How do I become a member?</h3>
+                <p>You can sign up online through our website or visit us in person. Basic membership is free, and we also offer premium plans with additional benefits.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How many books can I borrow at once?</h3>
+                <p>This depends on your membership level. Basic members can borrow up to 3 books, Standard members up to 5 books, and Premium members have unlimited borrowing.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What if I return a book late?</h3>
+                <p>Late returns may incur a small daily fee. However, you can renew your books online before the due date to avoid any charges.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer digital books?</h3>
+                <p>Yes! Standard and Premium members have access to our extensive collection of e-books and audiobooks available 24/7 through our online platform.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I reserve a book that's currently checked out?</h3>
+                <p>Absolutely! You can place a hold on any book through our online catalog, and we'll notify you when it becomes available.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is there parking available?</h3>
+                <p>Yes, we have free parking available for all library visitors. There's also convenient public transportation access nearby.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Still Have Questions?</h2>
+            <p>Don't hesitate to reach out - we're here to help!</p>
+            <button class="btn-primary">Visit Us Today</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LibraryHub</h3>
+                <p>Your trusted partner in knowledge and learning since 2000.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>📍 123 Library Street, Book City</p>
+                <p>📞 +1 (555) 123-4567</p>
+                <p>✉️ info@libraryhub.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LibraryHub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
